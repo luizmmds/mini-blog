@@ -1,1 +1,1 @@
-# mini-blog
+# Mini-blog with Angular, Python and Neo4J
