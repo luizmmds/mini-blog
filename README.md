@@ -1,1 +1,1 @@
-# Mini-blog with Angular, Python and Neo4J
+# Restful Mini-blog with Python and Neo4J

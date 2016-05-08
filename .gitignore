@@ -1,1 +1,3 @@
 venv
+*.pyc
+/neo4j-community-3.0.1
