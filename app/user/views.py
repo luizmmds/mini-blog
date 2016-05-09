@@ -25,4 +25,4 @@ class UserAPIView(FlaskView):
         data = request.get_json()
         user = User.authenticate(data.get('email'), data.get('password'))
         serializer = UserSerializer(user)
-        return Response(serializer.data, 200, headers={'HTTP_AUTHORIZATION': user.token[0][0].code})
+        return Response(serializer.data, 200, headers={'Authorization': user.token[0][0].code})

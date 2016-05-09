@@ -14,7 +14,6 @@ class ModelSerializer():
                 serializer.append(self.to_representation(inst))
         else:
             serializer = self.to_representation(instance)
-            
 
         self.data = json.dumps(serializer)
 
